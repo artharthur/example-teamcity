@@ -47,7 +47,7 @@ object Build : BuildType({
             }
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
-            jdkHome = "%env.JDK_11_0_x64%"
+            jdkHome = "/usr/lib/jvm/java-11-openjdk-amd64"
         }
         maven {
             name = "Deploy to Nexus"
