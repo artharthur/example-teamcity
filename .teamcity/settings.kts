@@ -57,6 +57,7 @@ object Build : BuildType({
             }
             goals = "clean deploy"
             userSettingsSelection = "nexus-settings"
+            jdkHome = "%env.JDK_11_0_x64%"
         }
     }
 
